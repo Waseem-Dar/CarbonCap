@@ -173,7 +173,9 @@ class DashBoardScreen extends ConsumerWidget {
          }else if(index == 3){
            context.goNamed(AppRoutesConstant.targetRouteName);
          }else{
-           context.goNamed(AppRoutesConstant.homeRouteName);
+           context.goNamed(AppRoutesConstant.homeRouteName
+
+           );
          }
         },
       ),
